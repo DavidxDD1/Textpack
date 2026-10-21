@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-10-19T20:03:45.862Z",
+  "browser": "155.0.4283.62",
+  "passed": 13,
+  "checks": [
+    "Sample: actual total archive size",
+    "Sample: exact match count",
+    "Editing invalidates download",
+    "Unicode code-point offsets",
+    "Unicode highlight",
+    "Overlapping matches",
+    "Browser download: CRLF/BOM bytes preserved",
+    "Archive restore flow",
+    "Corrupt archive produces visible error",
+    "Input is rendered as text",
+    "Empty input is supported",
+    "Mobile layout has no horizontal overflow",
+    "No unhandled browser exceptions"
+  ],
+  "errors": []
+}

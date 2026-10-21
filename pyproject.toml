@@ -1,0 +1,6 @@
+[project]
+name = "textpack"
+version = "1.0.0"
+description = "Local Unicode KMP search and verified byte Huffman compression"
+requires-python = ">=3.10"
+dependencies = []

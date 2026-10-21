@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TextPack · 文本检索与无损压缩</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+<header class="topbar"><div class="brand"><span class="brandmark">Tp</span><strong>TextPack</strong><span class="brand-divider"></span><span class="muted">文本工作台</span></div><span class="local-indicator"><i></i>仅在本机处理</span></header>
+<main>
+  <section class="hero"><div><p class="eyebrow">DATA STRUCTURES, IN PRACTICE</p><h1>让文本可查找，也可还原。</h1><p class="intro">检索学习资料、查看编码过程，再把文本打包带走。</p></div><div class="hero-tags"><span>KMP 检索</span><span>Huffman 压缩</span><span>无需联网</span></div></section>
+  <div id="status" class="status" role="status" aria-live="polite">正在载入示例…</div>
+  <section class="workspace">
+    <article class="card editor-card">
+      <div class="section-head"><div><span class="step">01</span><h2>准备文本</h2></div><span id="char-count" class="muted">0 个字符</span></div>
+      <div class="toolbar"><button id="sample" class="button small ghost">载入示例</button><label class="button small ghost file-label">导入 UTF-8 文本<input id="text-file" type="file" accept=".txt,.md,text/plain,text/markdown"></label><button id="clear" class="button small subtle">清空</button></div>
+      <label class="sr-only" for="text">待处理文本</label><textarea id="text" spellcheck="false" placeholder="粘贴笔记、讲义或日志。支持中文与 emoji，最多 1 MiB。"></textarea>
+      <div class="editor-footer"><span id="input-label">未载入文件</span><span>UTF-8 · 上限 1 MiB</span></div>
+      <div class="search-controls"><label for="pattern">查找内容</label><div class="search-row"><input id="pattern" type="text" value="算法" placeholder="输入模式串，区分大小写"><button id="analyze" class="button primary">分析与检索 <span aria-hidden="true">↗</span></button></div><p class="hint">允许重叠匹配；位置按 Unicode 字符计数，从 0 开始。</p></div>
+    </article>
+    <article class="card summary-card">
+      <div class="section-head"><div><span class="step">02</span><h2>查看打包结果</h2></div><span id="verified" class="pill">等待分析</span></div>
+      <div class="savings"><p>完整文件的空间节省</p><strong id="saving">—</strong><span id="saving-note">含文件头与频率表，结果以实际字节为准。</span></div>
+      <div class="size-comparison"><div><span>原始文本</span><strong id="original-size">—</strong></div><div><span>TPK 文件</span><strong id="archive-size">—</strong></div></div>
+      <dl class="details"><div><dt>编码数据</dt><dd id="payload-size">—</dd></div><div><dt>文件头与频率表</dt><dd id="metadata-size">—</dd></div><div><dt>平均码长</dt><dd id="average-bits">—</dd></div><div><dt>CRC32</dt><dd id="crc">—</dd></div></dl>
+      <button id="download" class="button primary full" disabled>下载压缩文件 .tpk <span aria-hidden="true">↓</span></button>
+      <label class="button ghost full file-label restore">还原 .tpk 文件<input id="archive-file" type="file" accept=".tpk,application/octet-stream"></label>
+      <p class="hint centered">无损还原经过逐字节比较；CRC32 用于检测意外损坏。</p>
+    </article>
+  </section>
+  <section class="insights">
+    <article class="card"><div class="section-head"><div><span class="step">03</span><h2>检索结果</h2></div><span id="match-count" class="count-badge">0 处</span></div><p id="result-note" class="hint">分析后显示命中位置与上下文。</p><div class="table-scroll results"><table><thead><tr><th>起始下标</th><th>行 : 列</th><th>上下文</th></tr></thead><tbody id="matches"></tbody></table></div><details><summary>查看 KMP 前缀表</summary><p class="hint">π[i] 表示模式串前 i+1 个字符的最长相等真前后缀长度。</p><pre id="prefix">[]</pre></details></article>
+    <article class="card"><div class="section-head"><div><span class="step">04</span><h2>编码观察</h2></div><span id="symbol-count" class="muted">0 种字节</span></div><p class="hint">频次越高，通常编码越短。中文以 UTF-8 字节参与编码。</p><div class="table-scroll codes"><table><thead><tr><th>字节</th><th>频次</th><th>编码</th><th>位数</th></tr></thead><tbody id="codes"></tbody></table></div><details><summary>查看最小堆合并记录</summary><p class="hint">每轮取出权值最小的两棵树，合并后重新入堆。</p><pre id="merges">等待分析</pre></details></article>
+  </section>
+  <section class="card preview-card"><div class="section-head"><h2>命中预览</h2><span class="muted">前 4,000 个字符 · 最多标记 80 处</span></div><div id="preview" class="preview">等待分析</div><p class="hint">重叠区间会合并高亮；精确起始位置请查看检索结果。</p></section>
+  <footer><span>TextPack v1.0.0</span><span>文本不上传到外部服务 · 无浏览器持久化存储</span></footer>
+</main>
+</body>
+</html>

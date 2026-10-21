@@ -1,0 +1,1617 @@
+{
+  "characters": 4882,
+  "pattern_characters": 2,
+  "match_count": 49,
+  "positions": [
+    0,
+    69,
+    90,
+    270,
+    291,
+    471,
+    492,
+    672,
+    693,
+    873,
+    894,
+    1074,
+    1095,
+    1275,
+    1296,
+    1476,
+    1497,
+    1677,
+    1698,
+    1878,
+    1899,
+    2079,
+    2100,
+    2280,
+    2301,
+    2481,
+    2502,
+    2682,
+    2703,
+    2883,
+    2904,
+    3084,
+    3105,
+    3285,
+    3306,
+    3486,
+    3507,
+    3687,
+    3708,
+    3888,
+    3909,
+    4089,
+    4110,
+    4290,
+    4311,
+    4491,
+    4512,
+    4692,
+    4713
+  ],
+  "positions_truncated": false,
+  "matches": [
+    {
+      "offset": 0,
+      "line": 1,
+      "column": 1,
+      "context": "算法学习笔记 | TextPack 示例资料（合成数"
+    },
+    {
+      "offset": 69,
+      "line": 5,
+      "column": 1,
+      "context": "。\n\n第 01 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 90,
+      "line": 5,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 270,
+      "line": 11,
+      "column": 1,
+      "context": "。\n\n第 02 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 291,
+      "line": 11,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 471,
+      "line": 17,
+      "column": 1,
+      "context": "。\n\n第 03 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 492,
+      "line": 17,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 672,
+      "line": 23,
+      "column": 1,
+      "context": "。\n\n第 04 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 693,
+      "line": 23,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 873,
+      "line": 29,
+      "column": 1,
+      "context": "。\n\n第 05 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 894,
+      "line": 29,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 1074,
+      "line": 35,
+      "column": 1,
+      "context": "。\n\n第 06 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 1095,
+      "line": 35,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 1275,
+      "line": 41,
+      "column": 1,
+      "context": "。\n\n第 07 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 1296,
+      "line": 41,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 1476,
+      "line": 47,
+      "column": 1,
+      "context": "。\n\n第 08 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 1497,
+      "line": 47,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 1677,
+      "line": 53,
+      "column": 1,
+      "context": "。\n\n第 09 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 1698,
+      "line": 53,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 1878,
+      "line": 59,
+      "column": 1,
+      "context": "。\n\n第 10 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 1899,
+      "line": 59,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 2079,
+      "line": 65,
+      "column": 1,
+      "context": "。\n\n第 11 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 2100,
+      "line": 65,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 2280,
+      "line": 71,
+      "column": 1,
+      "context": "。\n\n第 12 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 2301,
+      "line": 71,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 2481,
+      "line": 77,
+      "column": 1,
+      "context": "。\n\n第 13 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 2502,
+      "line": 77,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 2682,
+      "line": 83,
+      "column": 1,
+      "context": "。\n\n第 14 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 2703,
+      "line": 83,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 2883,
+      "line": 89,
+      "column": 1,
+      "context": "。\n\n第 15 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 2904,
+      "line": 89,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 3084,
+      "line": 95,
+      "column": 1,
+      "context": "。\n\n第 16 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 3105,
+      "line": 95,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 3285,
+      "line": 101,
+      "column": 1,
+      "context": "。\n\n第 17 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 3306,
+      "line": 101,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 3486,
+      "line": 107,
+      "column": 1,
+      "context": "。\n\n第 18 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 3507,
+      "line": 107,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 3687,
+      "line": 113,
+      "column": 1,
+      "context": "。\n\n第 19 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 3708,
+      "line": 113,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 3888,
+      "line": 119,
+      "column": 1,
+      "context": "。\n\n第 20 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 3909,
+      "line": 119,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 4089,
+      "line": 125,
+      "column": 1,
+      "context": "。\n\n第 21 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 4110,
+      "line": 125,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 4290,
+      "line": 131,
+      "column": 1,
+      "context": "。\n\n第 22 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 4311,
+      "line": 131,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 4491,
+      "line": 137,
+      "column": 1,
+      "context": "。\n\n第 23 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 4512,
+      "line": 137,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    },
+    {
+      "offset": 4692,
+      "line": 143,
+      "column": 1,
+      "context": "。\n\n第 24 次学习记录\n算法需要明确输入、输出和边界条件。KMP 算法使用前"
+    },
+    {
+      "offset": 4713,
+      "line": 143,
+      "column": 22,
+      "context": "入、输出和边界条件。KMP 算法使用前缀表，避免重复比较已经匹配的字符。\nHuf"
+    }
+  ],
+  "prefix": [
+    0,
+    0
+  ],
+  "prefix_truncated": false,
+  "compression": {
+    "original_bytes": 12288,
+    "archive_bytes": 9631,
+    "metadata_bytes": 538,
+    "payload_bytes": 9093,
+    "payload_bits": 72744,
+    "unique_bytes": 104,
+    "saving_percent": 21.62,
+    "average_bits": 5.9199,
+    "crc32": "166a3e34",
+    "codebook": [
+      {
+        "byte": 229,
+        "label": "0xE5",
+        "frequency": 1039,
+        "code": "1110",
+        "length": 4
+      },
+      {
+        "byte": 231,
+        "label": "0xE7",
+        "frequency": 776,
+        "code": "1001",
+        "length": 4
+      },
+      {
+        "byte": 232,
+        "label": "0xE8",
+        "frequency": 462,
+        "code": "11001",
+        "length": 5
+      },
+      {
+        "byte": 230,
+        "label": "0xE6",
+        "frequency": 439,
+        "code": "10111",
+        "length": 5
+      },
+      {
+        "byte": 128,
+        "label": "0x80",
+        "frequency": 363,
+        "code": "01110",
+        "length": 5
+      },
+      {
+        "byte": 32,
+        "label": "空格",
+        "frequency": 339,
+        "code": "01010",
+        "length": 5
+      },
+      {
+        "byte": 228,
+        "label": "0xE4",
+        "frequency": 297,
+        "code": "00110",
+        "length": 5
+      },
+      {
+        "byte": 188,
+        "label": "0xBC",
+        "frequency": 292,
+        "code": "00100",
+        "length": 5
+      },
+      {
+        "byte": 233,
+        "label": "0xE9",
+        "frequency": 289,
+        "code": "00001",
+        "length": 5
+      },
+      {
+        "byte": 140,
+        "label": "0x8C",
+        "frequency": 267,
+        "code": "111110",
+        "length": 6
+      },
+      {
+        "byte": 141,
+        "label": "0x8D",
+        "frequency": 266,
+        "code": "111101",
+        "length": 6
+      },
+      {
+        "byte": 130,
+        "label": "0x82",
+        "frequency": 241,
+        "code": "110101",
+        "length": 6
+      },
+      {
+        "byte": 174,
+        "label": "0xAE",
+        "frequency": 220,
+        "code": "110000",
+        "length": 6
+      },
+      {
+        "byte": 129,
+        "label": "0x81",
+        "frequency": 218,
+        "code": "101101",
+        "length": 6
+      },
+      {
+        "byte": 135,
+        "label": "0x87",
+        "frequency": 216,
+        "code": "101100",
+        "length": 6
+      },
+      {
+        "byte": 227,
+        "label": "0xE3",
+        "frequency": 194,
+        "code": "101000",
+        "length": 6
+      },
+      {
+        "byte": 133,
+        "label": "0x85",
+        "frequency": 193,
+        "code": "100010",
+        "length": 6
+      },
+      {
+        "byte": 189,
+        "label": "0xBD",
+        "frequency": 193,
+        "code": "100011",
+        "length": 6
+      },
+      {
+        "byte": 154,
+        "label": "0x9A",
+        "frequency": 192,
+        "code": "100000",
+        "length": 6
+      },
+      {
+        "byte": 142,
+        "label": "0x8E",
+        "frequency": 172,
+        "code": "011011",
+        "length": 6
+      },
+      {
+        "byte": 184,
+        "label": "0xB8",
+        "frequency": 171,
+        "code": "011001",
+        "length": 6
+      },
+      {
+        "byte": 239,
+        "label": "0xEF",
+        "frequency": 171,
+        "code": "011010",
+        "length": 6
+      },
+      {
+        "byte": 148,
+        "label": "0x94",
+        "frequency": 170,
+        "code": "010110",
+        "length": 6
+      },
+      {
+        "byte": 176,
+        "label": "0xB0",
+        "frequency": 170,
+        "code": "010111",
+        "length": 6
+      },
+      {
+        "byte": 190,
+        "label": "0xBE",
+        "frequency": 170,
+        "code": "011000",
+        "length": 6
+      },
+      {
+        "byte": 168,
+        "label": "0xA8",
+        "frequency": 169,
+        "code": "010001",
+        "length": 6
+      },
+      {
+        "byte": 173,
+        "label": "0xAD",
+        "frequency": 169,
+        "code": "010010",
+        "length": 6
+      },
+      {
+        "byte": 185,
+        "label": "0xB9",
+        "frequency": 169,
+        "code": "010011",
+        "length": 6
+      },
+      {
+        "byte": 161,
+        "label": "0xA1",
+        "frequency": 168,
+        "code": "010000",
+        "length": 6
+      },
+      {
+        "byte": 10,
+        "label": "LF 换行",
+        "frequency": 147,
+        "code": "001011",
+        "length": 6
+      },
+      {
+        "byte": 132,
+        "label": "0x84",
+        "frequency": 146,
+        "code": "000111",
+        "length": 6
+      },
+      {
+        "byte": 149,
+        "label": "0x95",
+        "frequency": 146,
+        "code": "001010",
+        "length": 6
+      },
+      {
+        "byte": 97,
+        "label": "a",
+        "frequency": 145,
+        "code": "000100",
+        "length": 6
+      },
+      {
+        "byte": 156,
+        "label": "0x9C",
+        "frequency": 145,
+        "code": "000101",
+        "length": 6
+      },
+      {
+        "byte": 160,
+        "label": "0xA0",
+        "frequency": 145,
+        "code": "000110",
+        "length": 6
+      },
+      {
+        "byte": 186,
+        "label": "0xBA",
+        "frequency": 125,
+        "code": "1111110",
+        "length": 7
+      },
+      {
+        "byte": 150,
+        "label": "0x96",
+        "frequency": 122,
+        "code": "1111000",
+        "length": 7
+      },
+      {
+        "byte": 164,
+        "label": "0xA4",
+        "frequency": 122,
+        "code": "1111001",
+        "length": 7
+      },
+      {
+        "byte": 151,
+        "label": "0x97",
+        "frequency": 121,
+        "code": "1101101",
+        "length": 7
+      },
+      {
+        "byte": 172,
+        "label": "0xAC",
+        "frequency": 121,
+        "code": "1101110",
+        "length": 7
+      },
+      {
+        "byte": 187,
+        "label": "0xBB",
+        "frequency": 121,
+        "code": "1101111",
+        "length": 7
+      },
+      {
+        "byte": 98,
+        "label": "b",
+        "frequency": 120,
+        "code": "1101000",
+        "length": 7
+      },
+      {
+        "byte": 131,
+        "label": "0x83",
+        "frequency": 120,
+        "code": "1101001",
+        "length": 7
+      },
+      {
+        "byte": 143,
+        "label": "0x8F",
+        "frequency": 120,
+        "code": "1101100",
+        "length": 7
+      },
+      {
+        "byte": 139,
+        "label": "0x8B",
+        "frequency": 99,
+        "code": "1010110",
+        "length": 7
+      },
+      {
+        "byte": 191,
+        "label": "0xBF",
+        "frequency": 98,
+        "code": "1010101",
+        "length": 7
+      },
+      {
+        "byte": 166,
+        "label": "0xA6",
+        "frequency": 97,
+        "code": "1010010",
+        "length": 7
+      },
+      {
+        "byte": 182,
+        "label": "0xB6",
+        "frequency": 96,
+        "code": "1000010",
+        "length": 7
+      },
+      {
+        "byte": 144,
+        "label": "0x90",
+        "frequency": 75,
+        "code": "0011110",
+        "length": 7
+      },
+      {
+        "byte": 159,
+        "label": "0x9F",
+        "frequency": 74,
+        "code": "0011101",
+        "length": 7
+      },
+      {
+        "byte": 175,
+        "label": "0xAF",
+        "frequency": 73,
+        "code": "0011100",
+        "length": 7
+      },
+      {
+        "byte": 134,
+        "label": "0x86",
+        "frequency": 72,
+        "code": "11111110",
+        "length": 8
+      },
+      {
+        "byte": 138,
+        "label": "0x8A",
+        "frequency": 72,
+        "code": "11111111",
+        "length": 8
+      },
+      {
+        "byte": 145,
+        "label": "0x91",
+        "frequency": 72,
+        "code": "0000000",
+        "length": 7
+      },
+      {
+        "byte": 146,
+        "label": "0x92",
+        "frequency": 72,
+        "code": "0000001",
+        "length": 7
+      },
+      {
+        "byte": 147,
+        "label": "0x93",
+        "frequency": 72,
+        "code": "0000010",
+        "length": 7
+      },
+      {
+        "byte": 165,
+        "label": "0xA5",
+        "frequency": 72,
+        "code": "0000011",
+        "length": 7
+      },
+      {
+        "byte": 136,
+        "label": "0x88",
+        "frequency": 51,
+        "code": "11000100",
+        "length": 8
+      },
+      {
+        "byte": 162,
+        "label": "0xA2",
+        "frequency": 49,
+        "code": "10100110",
+        "length": 8
+      },
+      {
+        "byte": 163,
+        "label": "0xA3",
+        "frequency": 49,
+        "code": "10100111",
+        "length": 8
+      },
+      {
+        "byte": 169,
+        "label": "0xA9",
+        "frequency": 49,
+        "code": "10101000",
+        "length": 8
+      },
+      {
+        "byte": 179,
+        "label": "0xB3",
+        "frequency": 49,
+        "code": "10101001",
+        "length": 8
+      },
+      {
+        "byte": 102,
+        "label": "f",
+        "frequency": 48,
+        "code": "01111001",
+        "length": 8
+      },
+      {
+        "byte": 109,
+        "label": "m",
+        "frequency": 48,
+        "code": "01111011",
+        "length": 8
+      },
+      {
+        "byte": 155,
+        "label": "0x9B",
+        "frequency": 48,
+        "code": "01111101",
+        "length": 8
+      },
+      {
+        "byte": 157,
+        "label": "0x9D",
+        "frequency": 48,
+        "code": "01111110",
+        "length": 8
+      },
+      {
+        "byte": 183,
+        "label": "0xB7",
+        "frequency": 48,
+        "code": "10000110",
+        "length": 8
+      },
+      {
+        "byte": 48,
+        "label": "0",
+        "frequency": 35,
+        "code": "110001111",
+        "length": 9
+      },
+      {
+        "byte": 50,
+        "label": "2",
+        "frequency": 32,
+        "code": "110001110",
+        "length": 9
+      },
+      {
+        "byte": 153,
+        "label": "0x99",
+        "frequency": 27,
+        "code": "110001101",
+        "length": 9
+      },
+      {
+        "byte": 170,
+        "label": "0xAA",
+        "frequency": 26,
+        "code": "110001011",
+        "length": 9
+      },
+      {
+        "byte": 181,
+        "label": "0xB5",
+        "frequency": 26,
+        "code": "110001100",
+        "length": 9
+      },
+      {
+        "byte": 80,
+        "label": "P",
+        "frequency": 25,
+        "code": "100001111",
+        "length": 9
+      },
+      {
+        "byte": 101,
+        "label": "e",
+        "frequency": 25,
+        "code": "101011100",
+        "length": 9
+      },
+      {
+        "byte": 137,
+        "label": "0x89",
+        "frequency": 25,
+        "code": "101011101",
+        "length": 9
+      },
+      {
+        "byte": 152,
+        "label": "0x98",
+        "frequency": 25,
+        "code": "101011110",
+        "length": 9
+      },
+      {
+        "byte": 158,
+        "label": "0x9E",
+        "frequency": 25,
+        "code": "101011111",
+        "length": 9
+      },
+      {
+        "byte": 180,
+        "label": "0xB4",
+        "frequency": 25,
+        "code": "110001010",
+        "length": 9
+      },
+      {
+        "byte": 72,
+        "label": "H",
+        "frequency": 24,
+        "code": "001111110",
+        "length": 9
+      },
+      {
+        "byte": 75,
+        "label": "K",
+        "frequency": 24,
+        "code": "001111111",
+        "length": 9
+      },
+      {
+        "byte": 77,
+        "label": "M",
+        "frequency": 24,
+        "code": "011110000",
+        "length": 9
+      },
+      {
+        "byte": 105,
+        "label": "i",
+        "frequency": 24,
+        "code": "011110001",
+        "length": 9
+      },
+      {
+        "byte": 106,
+        "label": "j",
+        "frequency": 24,
+        "code": "011110100",
+        "length": 9
+      },
+      {
+        "byte": 110,
+        "label": "n",
+        "frequency": 24,
+        "code": "011110101",
+        "length": 9
+      },
+      {
+        "byte": 111,
+        "label": "o",
+        "frequency": 24,
+        "code": "011111000",
+        "length": 9
+      },
+      {
+        "byte": 117,
+        "label": "u",
+        "frequency": 24,
+        "code": "011111001",
+        "length": 9
+      },
+      {
+        "byte": 167,
+        "label": "0xA7",
+        "frequency": 24,
+        "code": "011111110",
+        "length": 9
+      },
+      {
+        "byte": 178,
+        "label": "0xB2",
+        "frequency": 24,
+        "code": "011111111",
+        "length": 9
+      },
+      {
+        "byte": 240,
+        "label": "0xF0",
+        "frequency": 24,
+        "code": "100001110",
+        "length": 9
+      },
+      {
+        "byte": 49,
+        "label": "1",
+        "frequency": 13,
+        "code": "0011111011",
+        "length": 10
+      },
+      {
+        "byte": 51,
+        "label": "3",
+        "frequency": 3,
+        "code": "001111101011",
+        "length": 12
+      },
+      {
+        "byte": 52,
+        "label": "4",
+        "frequency": 3,
+        "code": "00111110000",
+        "length": 11
+      },
+      {
+        "byte": 53,
+        "label": "5",
+        "frequency": 2,
+        "code": "001111100011",
+        "length": 12
+      },
+      {
+        "byte": 54,
+        "label": "6",
+        "frequency": 2,
+        "code": "001111100100",
+        "length": 12
+      },
+      {
+        "byte": 55,
+        "label": "7",
+        "frequency": 2,
+        "code": "001111100101",
+        "length": 12
+      },
+      {
+        "byte": 56,
+        "label": "8",
+        "frequency": 2,
+        "code": "001111100110",
+        "length": 12
+      },
+      {
+        "byte": 57,
+        "label": "9",
+        "frequency": 2,
+        "code": "001111100111",
+        "length": 12
+      },
+      {
+        "byte": 84,
+        "label": "T",
+        "frequency": 1,
+        "code": "0011111010000",
+        "length": 13
+      },
+      {
+        "byte": 99,
+        "label": "c",
+        "frequency": 1,
+        "code": "0011111010001",
+        "length": 13
+      },
+      {
+        "byte": 107,
+        "label": "k",
+        "frequency": 1,
+        "code": "0011111010010",
+        "length": 13
+      },
+      {
+        "byte": 116,
+        "label": "t",
+        "frequency": 1,
+        "code": "0011111010011",
+        "length": 13
+      },
+      {
+        "byte": 120,
+        "label": "x",
+        "frequency": 1,
+        "code": "0011111010100",
+        "length": 13
+      },
+      {
+        "byte": 124,
+        "label": "|",
+        "frequency": 1,
+        "code": "0011111010101",
+        "length": 13
+      },
+      {
+        "byte": 171,
+        "label": "0xAB",
+        "frequency": 1,
+        "code": "001111100010",
+        "length": 12
+      }
+    ],
+    "merges": [
+      {
+        "left": 1,
+        "right": 1,
+        "sum": 2
+      },
+      {
+        "left": 1,
+        "right": 1,
+        "sum": 2
+      },
+      {
+        "left": 1,
+        "right": 1,
+        "sum": 2
+      },
+      {
+        "left": 1,
+        "right": 2,
+        "sum": 3
+      },
+      {
+        "left": 2,
+        "right": 2,
+        "sum": 4
+      },
+      {
+        "left": 2,
+        "right": 2,
+        "sum": 4
+      },
+      {
+        "left": 2,
+        "right": 2,
+        "sum": 4
+      },
+      {
+        "left": 2,
+        "right": 3,
+        "sum": 5
+      },
+      {
+        "left": 3,
+        "right": 3,
+        "sum": 6
+      },
+      {
+        "left": 4,
+        "right": 4,
+        "sum": 8
+      },
+      {
+        "left": 4,
+        "right": 5,
+        "sum": 9
+      },
+      {
+        "left": 6,
+        "right": 8,
+        "sum": 14
+      },
+      {
+        "left": 9,
+        "right": 13,
+        "sum": 22
+      },
+      {
+        "left": 14,
+        "right": 22,
+        "sum": 36
+      },
+      {
+        "left": 24,
+        "right": 24,
+        "sum": 48
+      },
+      {
+        "left": 24,
+        "right": 24,
+        "sum": 48
+      },
+      {
+        "left": 24,
+        "right": 24,
+        "sum": 48
+      },
+      {
+        "left": 24,
+        "right": 24,
+        "sum": 48
+      },
+      {
+        "left": 24,
+        "right": 24,
+        "sum": 48
+      },
+      {
+        "left": 24,
+        "right": 25,
+        "sum": 49
+      },
+      {
+        "left": 25,
+        "right": 25,
+        "sum": 50
+      },
+      {
+        "left": 25,
+        "right": 25,
+        "sum": 50
+      },
+      {
+        "left": 25,
+        "right": 26,
+        "sum": 51
+      },
+      {
+        "left": 26,
+        "right": 27,
+        "sum": 53
+      },
+      {
+        "left": 32,
+        "right": 35,
+        "sum": 67
+      },
+      {
+        "left": 36,
+        "right": 48,
+        "sum": 84
+      },
+      {
+        "left": 48,
+        "right": 48,
+        "sum": 96
+      },
+      {
+        "left": 48,
+        "right": 48,
+        "sum": 96
+      },
+      {
+        "left": 48,
+        "right": 48,
+        "sum": 96
+      },
+      {
+        "left": 48,
+        "right": 48,
+        "sum": 96
+      },
+      {
+        "left": 48,
+        "right": 49,
+        "sum": 97
+      },
+      {
+        "left": 49,
+        "right": 49,
+        "sum": 98
+      },
+      {
+        "left": 49,
+        "right": 49,
+        "sum": 98
+      },
+      {
+        "left": 50,
+        "right": 50,
+        "sum": 100
+      },
+      {
+        "left": 51,
+        "right": 51,
+        "sum": 102
+      },
+      {
+        "left": 53,
+        "right": 67,
+        "sum": 120
+      },
+      {
+        "left": 72,
+        "right": 72,
+        "sum": 144
+      },
+      {
+        "left": 72,
+        "right": 72,
+        "sum": 144
+      },
+      {
+        "left": 72,
+        "right": 72,
+        "sum": 144
+      },
+      {
+        "left": 73,
+        "right": 74,
+        "sum": 147
+      },
+      {
+        "left": 75,
+        "right": 84,
+        "sum": 159
+      },
+      {
+        "left": 96,
+        "right": 96,
+        "sum": 192
+      },
+      {
+        "left": 96,
+        "right": 96,
+        "sum": 192
+      },
+      {
+        "left": 96,
+        "right": 97,
+        "sum": 193
+      },
+      {
+        "left": 97,
+        "right": 98,
+        "sum": 195
+      },
+      {
+        "left": 98,
+        "right": 98,
+        "sum": 196
+      },
+      {
+        "left": 99,
+        "right": 100,
+        "sum": 199
+      },
+      {
+        "left": 102,
+        "right": 120,
+        "sum": 222
+      },
+      {
+        "left": 120,
+        "right": 120,
+        "sum": 240
+      },
+      {
+        "left": 120,
+        "right": 121,
+        "sum": 241
+      },
+      {
+        "left": 121,
+        "right": 121,
+        "sum": 242
+      },
+      {
+        "left": 122,
+        "right": 122,
+        "sum": 244
+      },
+      {
+        "left": 125,
+        "right": 144,
+        "sum": 269
+      },
+      {
+        "left": 144,
+        "right": 144,
+        "sum": 288
+      },
+      {
+        "left": 145,
+        "right": 145,
+        "sum": 290
+      },
+      {
+        "left": 145,
+        "right": 146,
+        "sum": 291
+      },
+      {
+        "left": 146,
+        "right": 147,
+        "sum": 293
+      },
+      {
+        "left": 147,
+        "right": 159,
+        "sum": 306
+      },
+      {
+        "left": 168,
+        "right": 169,
+        "sum": 337
+      },
+      {
+        "left": 169,
+        "right": 169,
+        "sum": 338
+      },
+      {
+        "left": 170,
+        "right": 170,
+        "sum": 340
+      },
+      {
+        "left": 170,
+        "right": 171,
+        "sum": 341
+      },
+      {
+        "left": 171,
+        "right": 172,
+        "sum": 343
+      },
+      {
+        "left": 192,
+        "right": 192,
+        "sum": 384
+      },
+      {
+        "left": 192,
+        "right": 193,
+        "sum": 385
+      },
+      {
+        "left": 193,
+        "right": 193,
+        "sum": 386
+      },
+      {
+        "left": 194,
+        "right": 195,
+        "sum": 389
+      },
+      {
+        "left": 196,
+        "right": 199,
+        "sum": 395
+      },
+      {
+        "left": 216,
+        "right": 218,
+        "sum": 434
+      },
+      {
+        "left": 220,
+        "right": 222,
+        "sum": 442
+      },
+      {
+        "left": 240,
+        "right": 241,
+        "sum": 481
+      },
+      {
+        "left": 241,
+        "right": 242,
+        "sum": 483
+      },
+      {
+        "left": 244,
+        "right": 266,
+        "sum": 510
+      },
+      {
+        "left": 267,
+        "right": 269,
+        "sum": 536
+      },
+      {
+        "left": 288,
+        "right": 289,
+        "sum": 577
+      },
+      {
+        "left": 290,
+        "right": 291,
+        "sum": 581
+      },
+      {
+        "left": 292,
+        "right": 293,
+        "sum": 585
+      },
+      {
+        "left": 297,
+        "right": 306,
+        "sum": 603
+      },
+      {
+        "left": 337,
+        "right": 338,
+        "sum": 675
+      },
+      {
+        "left": 339,
+        "right": 340,
+        "sum": 679
+      },
+      {
+        "left": 341,
+        "right": 343,
+        "sum": 684
+      },
+      {
+        "left": 363,
+        "right": 384,
+        "sum": 747
+      },
+      {
+        "left": 385,
+        "right": 386,
+        "sum": 771
+      },
+      {
+        "left": 389,
+        "right": 395,
+        "sum": 784
+      },
+      {
+        "left": 434,
+        "right": 439,
+        "sum": 873
+      },
+      {
+        "left": 442,
+        "right": 462,
+        "sum": 904
+      },
+      {
+        "left": 481,
+        "right": 483,
+        "sum": 964
+      },
+      {
+        "left": 510,
+        "right": 536,
+        "sum": 1046
+      },
+      {
+        "left": 577,
+        "right": 581,
+        "sum": 1158
+      },
+      {
+        "left": 585,
+        "right": 603,
+        "sum": 1188
+      },
+      {
+        "left": 675,
+        "right": 679,
+        "sum": 1354
+      },
+      {
+        "left": 684,
+        "right": 747,
+        "sum": 1431
+      },
+      {
+        "left": 771,
+        "right": 776,
+        "sum": 1547
+      },
+      {
+        "left": 784,
+        "right": 873,
+        "sum": 1657
+      },
+      {
+        "left": 904,
+        "right": 964,
+        "sum": 1868
+      },
+      {
+        "left": 1039,
+        "right": 1046,
+        "sum": 2085
+      },
+      {
+        "left": 1158,
+        "right": 1188,
+        "sum": 2346
+      },
+      {
+        "left": 1354,
+        "right": 1431,
+        "sum": 2785
+      },
+      {
+        "left": 1547,
+        "right": 1657,
+        "sum": 3204
+      },
+      {
+        "left": 1868,
+        "right": 2085,
+        "sum": 3953
+      },
+      {
+        "left": 2346,
+        "right": 2785,
+        "sum": 5131
+      },
+      {
+        "left": 3204,
+        "right": 3953,
+        "sum": 7157
+      },
+      {
+        "left": 5131,
+        "right": 7157,
+        "sum": 12288
+      }
+    ]
+  },
+  "roundtrip_ok": true
+}

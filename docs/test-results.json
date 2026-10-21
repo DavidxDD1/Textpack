@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-10-19T20:04:54.049764+00:00",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "tests_run": 38,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "elapsed_seconds": 0.8644,
+  "kmp_exhaustive_pairs": 7905,
+  "prefix_definition_cases": 255,
+  "seeded_byte_roundtrips": 180,
+  "exhaustive_merge_oracle_cases": 40
+}

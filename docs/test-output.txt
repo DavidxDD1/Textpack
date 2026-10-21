@@ -1,0 +1,43 @@
+test_all_bytes (test_core.CodecTests.test_all_bytes) ... ok
+test_all_truncation_points (test_core.CodecTests.test_all_truncation_points) ... ok
+test_bit_length_mismatch (test_core.CodecTests.test_bit_length_mismatch) ... ok
+test_crc_catches_reordering (test_core.CodecTests.test_crc_catches_reordering) ... ok
+test_crc_known_vector (test_core.CodecTests.test_crc_known_vector) ... ok
+test_deterministic (test_core.CodecTests.test_deterministic) ... ok
+test_empty (test_core.CodecTests.test_empty) ... ok
+test_frequency_table_validation (test_core.CodecTests.test_frequency_table_validation) ... ok
+test_header_limits (test_core.CodecTests.test_header_limits) ... ok
+test_invalid_single_symbol_bit (test_core.CodecTests.test_invalid_single_symbol_bit) ... ok
+test_known_banana_encoding (test_core.CodecTests.test_known_banana_encoding) ... ok
+test_optimality_against_exhaustive_merges (test_core.CodecTests.test_optimality_against_exhaustive_merges) ... ok
+test_padding (test_core.CodecTests.test_padding) ... ok
+test_prefix_free (test_core.CodecTests.test_prefix_free) ... ok
+test_random_roundtrips (test_core.CodecTests.test_random_roundtrips) ... ok
+test_single_byte (test_core.CodecTests.test_single_byte) ... ok
+test_true_total_size (test_core.CodecTests.test_true_total_size) ... ok
+test_unicode_roundtrip (test_core.CodecTests.test_unicode_roundtrip) ... ok
+test_wrong_magic_and_extra_bytes (test_core.CodecTests.test_wrong_magic_and_extra_bytes) ... ok
+test_empty_and_long_pattern (test_core.KMPTests.test_empty_and_long_pattern) ... ok
+test_exhaustive_against_naive (test_core.KMPTests.test_exhaustive_against_naive) ... ok
+test_known_overlaps (test_core.KMPTests.test_known_overlaps) ... ok
+test_line_columns (test_core.KMPTests.test_line_columns) ... ok
+test_prefix (test_core.KMPTests.test_prefix) ... ok
+test_prefix_against_definition (test_core.KMPTests.test_prefix_against_definition) ... ok
+test_unicode_offsets (test_core.KMPTests.test_unicode_offsets) ... ok
+test_empty_pipeline (test_core.ServiceTests.test_empty_pipeline) ... ok
+test_pipeline_and_limit (test_core.ServiceTests.test_pipeline_and_limit) ... ok
+test_missing_and_non_utf8 (test_interfaces.CLITests.test_missing_and_non_utf8) ... ok
+test_no_implicit_overwrite (test_interfaces.CLITests.test_no_implicit_overwrite) ... ok
+test_roundtrip_files (test_interfaces.CLITests.test_roundtrip_files) ... ok
+test_search_and_analyze (test_interfaces.CLITests.test_search_and_analyze) ... ok
+test_analyze (test_interfaces.HTTPTests.test_analyze) ... ok
+test_archive_roundtrip (test_interfaces.HTTPTests.test_archive_roundtrip) ... ok
+test_limits (test_interfaces.HTTPTests.test_limits) ... ok
+test_origin_and_host (test_interfaces.HTTPTests.test_origin_and_host) ... ok
+test_reject_invalid_and_binary (test_interfaces.HTTPTests.test_reject_invalid_and_binary) ... ok
+test_static_and_health (test_interfaces.HTTPTests.test_static_and_health) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.839s
+
+OK

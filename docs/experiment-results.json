@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-10-19T20:04:53.823698+00:00",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "timing_runs": 5,
+  "search": [
+    {
+      "text_length": 2000,
+      "pattern_length": 64,
+      "kmp_comparisons": 6122,
+      "naive_comparisons": 123968,
+      "kmp_ms": 0.1757,
+      "naive_ms": 3.5594
+    },
+    {
+      "text_length": 4000,
+      "pattern_length": 64,
+      "kmp_comparisons": 12122,
+      "naive_comparisons": 251968,
+      "kmp_ms": 0.352,
+      "naive_ms": 7.2925
+    },
+    {
+      "text_length": 8000,
+      "pattern_length": 64,
+      "kmp_comparisons": 24122,
+      "naive_comparisons": 507968,
+      "kmp_ms": 0.6963,
+      "naive_ms": 14.74
+    },
+    {
+      "text_length": 16000,
+      "pattern_length": 64,
+      "kmp_comparisons": 48122,
+      "naive_comparisons": 1019968,
+      "kmp_ms": 1.3519,
+      "naive_ms": 29.8053
+    }
+  ],
+  "compression": [
+    {
+      "case": "empty",
+      "original_bytes": 0,
+      "archive_bytes": 18,
+      "metadata_bytes": 18,
+      "payload_bytes": 0,
+      "saving_percent": null,
+      "gzip_bytes": 20,
+      "roundtrip_ok": true
+    },
+    {
+      "case": "banana",
+      "original_bytes": 6,
+      "archive_bytes": 35,
+      "metadata_bytes": 33,
+      "payload_bytes": 2,
+      "saving_percent": -483.33,
+      "gzip_bytes": 24,
+      "roundtrip_ok": true
+    },
+    {
+      "case": "all_256_bytes",
+      "original_bytes": 256,
+      "archive_bytes": 1554,
+      "metadata_bytes": 1298,
+      "payload_bytes": 256,
+      "saving_percent": -507.03,
+      "gzip_bytes": 279,
+      "roundtrip_ok": true
+    },
+    {
+      "case": "study_notes",
+      "original_bytes": 12288,
+      "archive_bytes": 9631,
+      "metadata_bytes": 538,
+      "payload_bytes": 9093,
+      "saving_percent": 21.62,
+      "gzip_bytes": 636,
+      "roundtrip_ok": true
+    },
+    {
+      "case": "seeded_random_4096",
+      "original_bytes": 4096,
+      "archive_bytes": 5384,
+      "metadata_bytes": 1298,
+      "payload_bytes": 4086,
+      "saving_percent": -31.45,
+      "gzip_bytes": 4119,
+      "roundtrip_ok": true
+    }
+  ]
+}

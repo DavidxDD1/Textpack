@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-19T20:10:12.637071+00:00",
+  "tested_commit": "127dfb0d2276d4cf9b84fa3fc0ad62ae66fbe459",
+  "clean_git_clone": true,
+  "site_packages_disabled": true,
+  "unittest_exit_code": 0,
+  "tests_passed": 38,
+  "cli_roundtrip_equal": true,
+  "archive_matches_example": true,
+  "source_sha256": "ce5ebb72f9100d35bed35c88a60729d7e40234b2d8d1c4abd1bca179eb4221b1",
+  "original_bytes": 12288,
+  "archive_bytes": 9631
+}

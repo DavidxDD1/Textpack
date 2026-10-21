@@ -1,0 +1,7 @@
+{
+  "name": "textpack-browser-checks",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": { "test:browser": "node tests/browser.mjs" },
+  "devDependencies": { "playwright": "1.62.1" }
+}
